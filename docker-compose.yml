@@ -17,7 +17,7 @@ x-app:
     RAILS_ENV: ${RAILS_ENV:-development}
     ANYCABLE_DEBUG: ${DEBUG:-0}
     ANYCABLE_RPC_HOST: 0.0.0.0:50051
-  image: chaskiq/chaskiq:1.1.0
+  image: chaskiq/chaskiq
   tmpfs:
     - /tmp
 
